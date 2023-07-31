@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-&!1=tm36)5(h%$zc*d_d7we1s9j&bissg=*e=2tb4hqnpf6h^('
+SECRET_KEY = 'xxxxxxxxxxxxxxx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -148,7 +148,7 @@ EMAIL_HOST = "smtp-relay.brevo.com"  # smtp-relay.sendinblue.com
 EMAIL_USE_TLS = False  # False
 EMAIL_PORT = "587"  # 587
 EMAIL_HOST_USER = "popescu.manuel.denis@gmail.com"  # your email address
-EMAIL_HOST_PASSWORD = "UYV6JDmKNzqOW9ha"  # your password
+EMAIL_HOST_PASSWORD = "xxxxxxxxxxxxxx"  # your password
 DEFAULT_FROM_EMAIL = "popescu.manuel.denis@gmail.com"  # email ending with @sendinblue.com
 
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
